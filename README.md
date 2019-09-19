@@ -59,4 +59,4 @@ Running migrations:
  * Then login with superuser
  * In first section called "AUTHENTICATION AND AUTHORIZATION", you can to manage django platform users and groups 
  * In second section called "SERVER USERS AND GROUPS", you manage users, groups their relations impacting to linux user and groups.
- * RECOMMENDATION: to be used in production environments I suggest the use of https protocol.
+ * RECOMMENDATION: In production environments I suggest the use of https protocol.
