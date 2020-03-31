@@ -4,8 +4,11 @@
 This is an use case of django, python and sqlite to build a basic tool to manage linux groups and users.
 The scripts to manage Linux users and groups must be developed by you. This example provides a suggested class in osprocess.py to interact with Linux commands, osprocess class uses the super command for a more secure implementation.
 
+![Screenshot](dlucp.png)
+
 Requirements:
  * Django (v2.2.1)
+ * django-material-admin 1.6
  * python (v3.5)
  * sqlite (v3)
 

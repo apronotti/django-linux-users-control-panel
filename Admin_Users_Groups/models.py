@@ -33,7 +33,7 @@ class User(models.Model):
     def save(self, *args, **kwargs):
         if (self.pk is None):
             self.name = self.name.lower()
-            self.osproc.agregaUsuario(self.name, self.password)
+            self.osproc.addUser(self.name, self.password)
         else:
             pass
             # modify

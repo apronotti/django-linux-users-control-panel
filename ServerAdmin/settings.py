@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['localhost']
 INSTALLED_APPS = [
     # General use templates & template tags (should appear first)
     # Optional: Django admin theme (must be before django.contrib.admin)
+    'material.admin',
     'Admin_Users_Groups.apps.AdminUsersGroupsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -132,3 +133,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
